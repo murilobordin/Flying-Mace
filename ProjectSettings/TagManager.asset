@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Spyke
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2274463535
+    locked: 0
+  - name: Spyke
+    uniqueID: 2990895469
     locked: 0
