@@ -51,4 +51,10 @@ public class PlayerControl : MonoBehaviour
         else
             pulando = false;
     }
+
+    private void OnCollisionEnter2D(Collision2D outro)
+    {
+        if (outro.gameObject.tag == "MorteSubita")
+            controlaStatus.Morte();
+    }
 }
